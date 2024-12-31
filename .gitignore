@@ -16,27 +16,3 @@ output
 version.py
 build
 data
-
-git add data/once/ImageSets -f
-git add data/once_raw_large/ImageSets -f
-git add data/once_raw_large_round1/ImageSets -f
-git add data/once_raw_large_round2/ImageSets -f
-git add data/once_raw_medium/ImageSets -f
-git add data/once_raw_medium_round1/ImageSets -f
-git add data/once_raw_medium_round2/ImageSets -f
-
-git add data/once_raw_small/ImageSets -f
-git add data/once_raw_small_round1/ImageSets -f
-git add data/once_raw_small_round2/ImageSets -f
-git add data/waymo_lpart_0.05/ImageSets -f
-git add data/waymo_lpart_0.20/ImageSets -f
-git add data/waymo_lpart_1.00/ImageSets -f
-git add data/waymo_upart_0.05/ImageSets -f
-git add data/waymo_upart_0.05_round1/ImageSets -f
-git add data/waymo_upart_0.05_round2/ImageSets -f
-git add data/waymo_upart_0.20/ImageSets -f
-git add data/waymo_upart_0.20_round1/ImageSets -f
-git add data/waymo_upart_0.20_round2/ImageSets -f
-git add data/waymo_upart_1.00/ImageSets -f
-git add data/waymo_upart_1.00_round1/ImageSets -f
-git add data/waymo_upart_1.00_round2/ImageSets -f
