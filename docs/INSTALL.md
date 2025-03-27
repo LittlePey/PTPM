@@ -37,7 +37,7 @@ c. Install this `pcdet` library and its dependent libraries by running the follo
 python setup.py develop
 ```
 
-d. If your data is stored in oss, you can use [petrel-oss-python-sdk](https://drive.google.com/file/d/1-LZEGU7DiBjVzRC0HRpG3g6JQjafeb-s/view?usp=sharing) to load your data.
+d. If your data is stored in oss, you can use [petrel-oss-python-sdk](https://drive.google.com/file/d/1-LZEGU7DiBjVzRC0HRpG3g6JQjafeb-s/view?usp=sharing) to load your data. To prevent errors (ModuleNotFoundError: No module named 'petrel_client'), install this package whether you use petrel or not. If you can not install this package, you can also comment out the code about petrel to prevent errors.
 ```
 tar -xvf petrel-oss-python-sdk.tar
 mv petrel-oss-python-sdk ~
@@ -45,5 +45,5 @@ cd ~/petrel-oss-python-sdk
 python setup.py sdist
 pip install --user dist/*
 cp ./conf/petreloss.conf  ~
-```
 After that, you need to modify the petreloss.conf with your cluster name, access_key, secret_key, host_base, and host_bucket.
+```
